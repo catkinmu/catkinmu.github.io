@@ -42,21 +42,7 @@
         <div class="menu-icon-wrap" @click="collapsedSider">
           <Icon :class="rotateIcon" type="md-menu" size="24" />
         </div>
-        <!-- <side-menu active-name="1-1" theme="dark" width="auto" :class="sidemenuClasses"></side-menu> -->
-        <Menu active-name="1-1" theme="dark" width="auto" :class="sidemenuClasses">
-          <menu-item name="1-1">
-            <Icon type="ios-navigate" />
-            <span>Option 1</span>
-          </menu-item>
-          <menu-item name="1-2">
-            <Icon type="ios-search" />
-            <span>Option 2</span>
-          </menu-item>
-          <menu-item name="1-3">
-            <Icon type="ios-settings" />
-            <span>Option 3</span>
-          </menu-item>
-        </Menu>
+        <side-menu :collapsed="isCollapsed" :list="menuList"></side-menu>
       </Sider>
       <Content>
         <Layout style="height:100%">
@@ -79,7 +65,68 @@ export default {
   },
   data () {
     return {
-      isCollapsed: false
+      isCollapsed: true,
+      menuList: [{
+        title: '1111',
+        name: 'menu1',
+        icon: 'ios-navigate'
+      }, {
+        title: '2222',
+        name: 'menu2',
+        icon: 'ios-navigate'
+      }, {
+        title: '3333',
+        name: 'menu3',
+        icon: 'ios-navigate',
+        children: [
+          {
+            title: '3333-11',
+            name: 'menu3-1',
+            icon: 'ios-navigate',
+            children: [
+              {
+                title: '3333-11-11',
+                name: 'menu3-1-1',
+                icon: 'ios-navigate'
+              },
+              {
+                title: '3333-11-22',
+                name: 'menu3-1-2',
+                icon: 'ios-navigate',
+                children: [
+                  {
+                    title: '3333-11-22-11',
+                    name: 'menu3-1-2-1',
+                    icon: 'ios-navigate'
+                  },
+                  {
+                    title: '3333-11-22-22',
+                    name: 'menu3-1-2-2',
+                    icon: 'ios-navigate'
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            title: '3333-22',
+            name: 'menu3-2',
+            icon: 'ios-navigate',
+            children: [
+              {
+                title: '3333-22-11',
+                name: 'menu3-2-1',
+                icon: 'ios-navigate'
+              },
+              {
+                title: '3333-22-22',
+                name: 'menu3-2-2',
+                icon: 'ios-navigate'
+              }
+            ]
+          }
+        ]
+      }]
     }
   },
   computed: {
@@ -154,45 +201,45 @@ export default {
     transform: rotate(-90deg);
   }
 }
-.side-menu {
-  li {
-    padding: 10px 5px;
-    position: relative;
-    padding-left: 25px;
-    font-size: 14px;
-    line-height: 20px;
-    span {
-      display: block;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      transition: width 0.2s ease 0.2s;
-    }
-    i {
-      position: absolute;
-      left: 5px;
-      margin: 0;
-      line-height: 20px;
-      // transform: translateX(0px);
-      transition: font-size 0.2s ease;
-      font-size: 18px;
-    }
-  }
-  &.collapsed-menu {
-    li {
-      span {
-        width: 0px;
-        transition: width 0.2s ease;
-      }
-      i {
-        left: 50%;
-        transform: translateX(-50%);
-        transition: font-size 0.2s linear 0.4s, left 0.2s linear 0.4s, transform 0.2s linear 0.4s;
-        font-size: 22px;
-      }
-    }
-  }
-}
+// .side-menu {
+//   li {
+//     padding: 10px 5px;
+//     position: relative;
+//     padding-left: 25px;
+//     font-size: 14px;
+//     line-height: 20px;
+//     span {
+//       display: block;
+//       overflow: hidden;
+//       text-overflow: ellipsis;
+//       white-space: nowrap;
+//       transition: width 0.2s ease 0.2s;
+//     }
+//     i {
+//       position: absolute;
+//       left: 5px;
+//       margin: 0;
+//       line-height: 20px;
+//       // transform: translateX(0px);
+//       transition: font-size 0.2s ease;
+//       font-size: 18px;
+//     }
+//   }
+//   &.collapsed-menu {
+//     li {
+//       span {
+//         width: 0px;
+//         transition: width 0.2s ease;
+//       }
+//       i {
+//         left: 50%;
+//         transform: translateX(-50%);
+//         transition: font-size 0.2s linear 0.4s, left 0.2s linear 0.4s, transform 0.2s linear 0.4s;
+//         font-size: 22px;
+//       }
+//     }
+//   }
+// }
 .tag-nav-wrapper {
   height: 35px;
   padding: 0;

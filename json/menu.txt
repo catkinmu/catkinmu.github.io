@@ -1,0 +1,934 @@
+{
+  "rows": [
+    {
+      "PKID": "F01",
+      "CNAME": "主页",
+      "SORTID": "1",
+      "FILEN": "",
+      "SRCIMG": "icon-home",
+      "SRCIMG32": "",
+      "OPENTYPE": "",
+      "children": [
+        {
+          "PKID": "F0101",
+          "CNAME": "我的桌面",
+          "SORTID": "13",
+          "FILEN": "tpl/home/home.html?userid=1021",
+          "SRCIMG": "",
+          "SRCIMG32": "",
+          "OPENTYPE": ""
+        },
+        {
+          "PKID": "F0102",
+          "CNAME": "桌面二",
+          "SORTID": "15",
+          "FILEN": "tpl/home2/home2.html",
+          "SRCIMG": "",
+          "SRCIMG32": "",
+          "OPENTYPE": ""
+        },
+        {
+          "PKID": "F0103",
+          "CNAME": "桌面三",
+          "SORTID": "138",
+          "FILEN": "tpl/home3/index.html",
+          "SRCIMG": "",
+          "SRCIMG32": "",
+          "OPENTYPE": ""
+        }
+      ]
+    },
+    {
+      "PKID": "F02",
+      "CNAME": "表格表单",
+      "SORTID": "1",
+      "FILEN": "NULL",
+      "SRCIMG": "fa fa-table",
+      "SRCIMG32": "",
+      "OPENTYPE": "",
+      "C_H_I_L_D": [
+        {
+          "PKID": "F0201",
+          "CNAME": "基础表格",
+          "SORTID": "13",
+          "FILEN": "tpl/table/sp_grid.html",
+          "SRCIMG": "",
+          "SRCIMG32": "",
+          "OPENTYPE": ""
+        },
+        {
+          "PKID": "F0204",
+          "CNAME": "网格表单",
+          "SORTID": "13",
+          "FILEN": "tpl/table/form_grid.html",
+          "SRCIMG": "",
+          "SRCIMG32": "",
+          "OPENTYPE": ""
+        },
+        {
+          "PKID": "F0205",
+          "CNAME": "横向表单",
+          "SORTID": "13",
+          "FILEN": "tpl/table/form_hor.html",
+          "SRCIMG": "",
+          "SRCIMG32": "",
+          "OPENTYPE": ""
+        }
+      ]
+    },
+    {
+      "PKID": "F03",
+      "CNAME": "组件",
+      "SORTID": "1",
+      "FILEN": "NULL",
+      "SRCIMG": "icon-flow-merge",
+      "SRCIMG32": "",
+      "OPENTYPE": "",
+      "C_H_I_L_D": [
+        {
+          "PKID": "F0301",
+          "CNAME": "排版",
+          "SORTID": "13",
+          "FILEN": "tpl/module/paiban.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0302",
+          "CNAME": "字体图标",
+          "SORTID": "13",
+          "FILEN": "",
+          "SRCIMG": "",
+          "SRCIMG32": "",
+          "OPENTYPE": "",
+          "C_H_I_L_D": [
+            {
+              "PKID": "F030201",
+              "CNAME": "fontello",
+              "SORTID": "13",
+              "FILEN": "tpl/module/icon.html",
+              "SRCIMG": "",
+              "OPENTYPE": "",
+              "SRCIMG32": ""
+            },
+            {
+              "PKID": "F030204",
+              "CNAME": "fontawesome",
+              "SORTID": "13",
+              "FILEN": "tpl/module/fontawesome.html",
+              "SRCIMG": "",
+              "OPENTYPE": "",
+              "SRCIMG32": ""
+            },
+            {
+              "PKID": "F030205",
+              "CNAME": "glyphicon",
+              "SORTID": "13",
+              "FILEN": "tpl/module/glyphicon.html",
+              "SRCIMG": "",
+              "OPENTYPE": "",
+              "SRCIMG32": ""
+            },
+            {
+              "PKID": "F030203",
+              "CNAME": "三级菜单",
+              "SORTID": "13",
+              "FILEN": "",
+              "SRCIMG": "",
+              "SRCIMG32": "",
+              "OPENTYPE": "",
+              "C_H_I_L_D": [
+                {
+                  "PKID": "F03020301",
+                  "CNAME": "四级菜单",
+                  "SORTID": "13",
+                  "FILEN": "",
+                  "SRCIMG": "",
+                  "SRCIMG32": "",
+                  "OPENTYPE": "",
+                  "C_H_I_L_D": [
+                    {
+                      "PKID": "F0302030101",
+                      "CNAME": "五级菜单",
+                      "SORTID": "13",
+                      "FILEN": "",
+                      "SRCIMG": "",
+                      "SRCIMG32": "",
+                      "OPENTYPE": ""
+                    }
+                  ]
+                },
+                {
+                  "PKID": "F03020302",
+                  "CNAME": "四级菜单",
+                  "SORTID": "13",
+                  "FILEN": "",
+                  "SRCIMG": "",
+                  "SRCIMG32": "",
+                  "OPENTYPE": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "PKID": "F0303",
+          "CNAME": "按钮",
+          "SORTID": "13",
+          "FILEN": "tpl/module/button.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0304",
+          "CNAME": "表单验证",
+          "SORTID": "13",
+          "FILEN": "tpl/module/validate.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0305",
+          "CNAME": "选项卡",
+          "SORTID": "13",
+          "FILEN": "tpl/module/tabs.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0306",
+          "CNAME": "面板",
+          "SORTID": "13",
+          "FILEN": "tpl/module/panel.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0307",
+          "CNAME": "时间轴",
+          "SORTID": "13",
+          "FILEN": "tpl/module/timeline.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0308",
+          "CNAME": "进度条",
+          "SORTID": "13",
+          "FILEN": "tpl/module/progress.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0309",
+          "CNAME": "步骤条",
+          "SORTID": "13",
+          "FILEN": "tpl/module/stepbar.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0310",
+          "CNAME": "单选多选",
+          "SORTID": "13",
+          "FILEN": "tpl/module/radioCheckbox.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0311",
+          "CNAME": "导航",
+          "SORTID": "13",
+          "FILEN": "tpl/module/nav.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0312",
+          "CNAME": "菜单",
+          "SORTID": "13",
+          "FILEN": "tpl/module/menu.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0313",
+          "CNAME": "上传文件",
+          "SORTID": "13",
+          "FILEN": "tpl/module/file.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0314",
+          "CNAME": "对话框",
+          "SORTID": "13",
+          "FILEN": "tpl/module/dialog_layer.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0315",
+          "CNAME": "搜索结果",
+          "SORTID": "13",
+          "FILEN": "tpl/module/searchResult.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0316",
+          "CNAME": "搜索框",
+          "SORTID": "13",
+          "FILEN": "tpl/module/searchBox.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0317",
+          "CNAME": "新闻详情",
+          "SORTID": "13",
+          "FILEN": "tpl/module/newsdetail.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0318",
+          "CNAME": "遮罩条",
+          "SORTID": "13",
+          "FILEN": "tpl/module/maskbar.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0319",
+          "CNAME": "下拉框",
+          "SORTID": "13",
+          "FILEN": "tpl/module/select.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0320",
+          "CNAME": "css3",
+          "SORTID": "15",
+          "FILEN": "tpl/module/css3.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0321",
+          "CNAME": "格式化日期",
+          "SORTID": "15",
+          "FILEN": "tpl/module/time.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0322",
+          "CNAME": "拖动排序",
+          "SORTID": "13",
+          "FILEN": "tpl/module/draggable_table.html",
+          "SRCIMG": "",
+          "SRCIMG32": "",
+          "OPENTYPE": ""
+        },
+        {
+          "PKID": "F0323",
+          "CNAME": "拖动布局",
+          "SORTID": "13",
+          "FILEN": "tpl/module/draggable_area.html",
+          "SRCIMG": "",
+          "SRCIMG32": "",
+          "OPENTYPE": ""
+        },
+        {
+          "PKID": "F0324",
+          "CNAME": "更新记录",
+          "SORTID": "13",
+          "FILEN": "tpl/module/prjProcess.html",
+          "SRCIMG": "",
+          "SRCIMG32": "",
+          "OPENTYPE": ""
+        }
+      ]
+    },
+    {
+      "PKID": "F04",
+      "CNAME": "页面",
+      "SORTID": "1",
+      "FILEN": "",
+      "SRCIMG": "icon-desktop-2",
+      "SRCIMG32": "",
+      "OPENTYPE": "",
+      "C_H_I_L_D": [
+        {
+          "PKID": "F0401",
+          "CNAME": "404",
+          "SORTID": "13",
+          "FILEN": "tpl/pages/404.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0402",
+          "CNAME": "500",
+          "SORTID": "15",
+          "FILEN": "tpl/pages/500.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0404",
+          "CNAME": "本地存储",
+          "SORTID": "",
+          "FILEN": "",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": "",
+          "C_H_I_L_D": [
+            {
+              "PKID": "F040401",
+              "CNAME": "用法介绍",
+              "SORTID": "",
+              "FILEN": "tpl/pages/html5_localStorage_intro.html",
+              "SRCIMG": "",
+              "OPENTYPE": "",
+              "SRCIMG32": ""
+            },
+            {
+              "PKID": "F040402",
+              "CNAME": "实时存储",
+              "SORTID": "",
+              "FILEN": "tpl/pages/html5_localStorage_saveData.html",
+              "SRCIMG": "",
+              "OPENTYPE": "",
+              "SRCIMG32": ""
+            },
+            {
+              "PKID": "F040403",
+              "CNAME": "本地数据库",
+              "SORTID": "",
+              "FILEN": "tpl/pages/html5_database.html",
+              "SRCIMG": "",
+              "OPENTYPE": "",
+              "SRCIMG32": ""
+            }
+          ]
+        },
+        {
+          "PKID": "F0405",
+          "CNAME": "vue使用",
+          "SORTID": "",
+          "FILEN": "",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": "",
+          "C_H_I_L_D": [
+            {
+              "PKID": "F040501",
+              "CNAME": "双向绑定",
+              "SORTID": "",
+              "FILEN": "tpl/vue/module.html",
+              "SRCIMG": "",
+              "OPENTYPE": "",
+              "SRCIMG32": ""
+            }
+          ]
+        },
+        {
+          "PKID": "F0406",
+          "CNAME": "前端跨域",
+          "SORTID": "15",
+          "FILEN": "tpl/pages/kuaYu.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0407",
+          "CNAME": "照片墙",
+          "SORTID": "15",
+          "FILEN": "tpl/pages/photoWall.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0408",
+          "CNAME": "数据实时操作",
+          "SORTID": "15",
+          "FILEN": "tpl/pages/real.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0409",
+          "CNAME": "幻灯片",
+          "SORTID": "15",
+          "FILEN": "tpl/pages/slider.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0410",
+          "CNAME": "滚动",
+          "SORTID": "15",
+          "FILEN": "tpl/pages/rolling.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0411",
+          "CNAME": "附件上传",
+          "SORTID": "15",
+          "FILEN": "tpl/pages/fileupload.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0412",
+          "CNAME": "日期插件",
+          "SORTID": "15",
+          "FILEN": "tpl/pages/laydate1.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        }
+      ]
+    },
+    {
+      "PKID": "F05",
+      "CNAME": "图表",
+      "SORTID": "1",
+      "FILEN": "",
+      "SRCIMG": "fa fa-line-chart",
+      "SRCIMG32": "",
+      "OPENTYPE": "",
+      "C_H_I_L_D": [
+        {
+          "PKID": "F0501",
+          "CNAME": "ECharts",
+          "SORTID": "13",
+          "FILEN": "tpl/echarts/index.html",
+          "SRCIMG": "",
+          "SRCIMG32": "",
+          "OPENTYPE": ""
+        },
+        {
+          "PKID": "F0502",
+          "CNAME": "Highcharts",
+          "SORTID": "13",
+          "FILEN": "tpl/highcharts/index.html",
+          "SRCIMG": "",
+          "SRCIMG32": "",
+          "OPENTYPE": ""
+        }
+      ]
+    },
+    {
+      "PKID": "F06",
+      "CNAME": "统计报表",
+      "SORTID": "1",
+      "FILEN": "",
+      "SRCIMG": "icon-database",
+      "SRCIMG32": "",
+      "OPENTYPE": "",
+      "C_H_I_L_D": [
+        {
+          "PKID": "F0601",
+          "CNAME": "业务受理时限表",
+          "SORTID": "13",
+          "FILEN": "tpl/reportForm/first.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0602",
+          "CNAME": "重点督查统计",
+          "SORTID": "15",
+          "FILEN": "tpl/reportForm/second.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0603",
+          "CNAME": "党建会议统计",
+          "SORTID": "138",
+          "FILEN": "tpl/reportForm/third.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0604",
+          "CNAME": "人员汇总",
+          "SORTID": "138",
+          "FILEN": "tpl/reportForm/peosum.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        }
+      ]
+    },
+    {
+      "PKID": "F07",
+      "CNAME": "数据可视化",
+      "SORTID": "1",
+      "FILEN": "",
+      "SRCIMG": "icon-eye-1",
+      "SRCIMG32": "",
+      "OPENTYPE": "",
+      "C_H_I_L_D": [
+        {
+          "PKID": "F0701",
+          "CNAME": "平台统计",
+          "SORTID": "13",
+          "FILEN": "tpl/dataview/platformStatistics.html",
+          "SRCIMG": "",
+          "OPENTYPE": "_blank",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0702",
+          "CNAME": "发布统计",
+          "SORTID": "15",
+          "FILEN": "tpl/dataview/releaseRanking.html",
+          "SRCIMG": "",
+          "OPENTYPE": "_blank",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0703",
+          "CNAME": "阅读统计",
+          "SORTID": "138",
+          "FILEN": "tpl/dataview/readRanking.html",
+          "SRCIMG": "",
+          "OPENTYPE": "_blank",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0704",
+          "CNAME": "西青大屏",
+          "SORTID": "138",
+          "FILEN": "tpl/dataview/xqsta/index.html",
+          "SRCIMG": "",
+          "OPENTYPE": "_blank",
+          "SRCIMG32": ""
+        }
+      ]
+    },
+    {
+      "PKID": "F08",
+      "CNAME": "设计中心",
+      "SORTID": "1",
+      "FILEN": "tpl/design/index.html",
+      "SRCIMG": "icon-popup-3",
+      "SRCIMG32": "",
+      "OPENTYPE": ""
+    },
+    {
+      "PKID": "F09",
+      "CNAME": "应用中心",
+      "SORTID": "1",
+      "FILEN": "",
+      "SRCIMG": "icon-th-large-outline",
+      "SRCIMG32": "",
+      "OPENTYPE": "",
+      "C_H_I_L_D": [
+        {
+          "PKID": "F0901",
+          "CNAME": "部门管理",
+          "SORTID": "13",
+          "FILEN": "tpl/department/index.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0902",
+          "CNAME": "成员管理",
+          "SORTID": "13",
+          "FILEN": "tpl/member/index.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0903",
+          "CNAME": "角色管理",
+          "SORTID": "13",
+          "FILEN": "tpl/role/index.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0904",
+          "CNAME": "权限管理",
+          "SORTID": "13",
+          "FILEN": "tpl/permission/index.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0905",
+          "CNAME": "数据导入",
+          "SORTID": "13",
+          "FILEN": "tpl/import/dataImport.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0906",
+          "CNAME": "重点项目",
+          "SORTID": "13",
+          "FILEN": "tpl/project_plan/index.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0907",
+          "CNAME": "通讯录",
+          "SORTID": "13",
+          "FILEN": "tpl/contact/index.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0908",
+          "CNAME": "新闻管理",
+          "SORTID": "13",
+          "FILEN": "tpl/imgnews/index.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0909",
+          "CNAME": "值班安排",
+          "SORTID": "13",
+          "FILEN": "tpl/duty/index.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0910",
+          "CNAME": "通知公告",
+          "SORTID": "13",
+          "FILEN": "tpl/notice/notice.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0911",
+          "CNAME": "会务安排",
+          "SORTID": "13",
+          "FILEN": "tpl/meeting/index.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0912",
+          "CNAME": "档案管理",
+          "SORTID": "13",
+          "FILEN": "tpl/archives/archYear.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0913",
+          "CNAME": "消息中心",
+          "SORTID": "13",
+          "FILEN": "tpl/message/index.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F0914",
+          "CNAME": "管理人员",
+          "SORTID": "13",
+          "FILEN": "tpl/people/peo_manage.html",
+          "SRCIMG": "",
+          "SRCIMG32": "",
+          "OPENTYPE": ""
+        },
+        {
+          "PKID": "F0915",
+          "CNAME": "共享文件",
+          "SORTID": "13",
+          "FILEN": "tpl/fileshare/fileList.html",
+          "SRCIMG": "",
+          "SRCIMG32": "",
+          "OPENTYPE": ""
+        },
+        {
+          "PKID": "F0916",
+          "CNAME": "工作日程",
+          "SORTID": "13",
+          "FILEN": "tpl/workschedule/index.html",
+          "SRCIMG": "",
+          "SRCIMG32": "",
+          "OPENTYPE": ""
+        },
+        {
+          "PKID": "F0917",
+          "CNAME": "电子邮箱",
+          "SORTID": "13",
+          "FILEN": "tpl/email/index.html",
+          "SRCIMG": "",
+          "SRCIMG32": "",
+          "OPENTYPE": ""
+        },
+        {
+          "PKID": "F0918",
+          "CNAME": "个人中心",
+          "SORTID": "13",
+          "FILEN": "tpl/personal/index.html",
+          "SRCIMG": "",
+          "SRCIMG32": "",
+          "OPENTYPE": ""
+        }
+      ]
+    },
+    {
+      "PKID": "F10",
+      "CNAME": "H+后台主题UI框架",
+      "SORTID": "1",
+      "FILEN": "",
+      "SRCIMG": "icon-vkontakte-rect",
+      "SRCIMG32": "",
+      "OPENTYPE": "",
+      "C_H_I_L_D": [
+        {
+          "PKID": "F1001",
+          "CNAME": "栅格系统",
+          "SORTID": "13",
+          "FILEN": "tpl/bootstrap/grid_options.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F1002",
+          "CNAME": "隐藏显示",
+          "SORTID": "13",
+          "FILEN": "tpl/bootstrap/show_hide.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F1003",
+          "CNAME": "基本表单",
+          "SORTID": "13",
+          "FILEN": "tpl/bootstrap/form_basic.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F1004",
+          "CNAME": "加载动画",
+          "SORTID": "13",
+          "FILEN": "tpl/bootstrap/spinner.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F1005",
+          "CNAME": "拖动面板",
+          "SORTID": "13",
+          "FILEN": "tpl/formbuilder/draggable_panels.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F1006",
+          "CNAME": "拖动任务",
+          "SORTID": "13",
+          "FILEN": "tpl/formbuilder/draggable_tasks.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F1007",
+          "CNAME": "代码编辑器",
+          "SORTID": "13",
+          "FILEN": "tpl/bootstrap/code_edit.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        }
+      ]
+    },
+    {
+      "PKID": "F11",
+      "CNAME": "工具",
+      "SORTID": "1",
+      "FILEN": "",
+      "SRCIMG": "fa fa-cutlery",
+      "SRCIMG32": "",
+      "OPENTYPE": "",
+      "C_H_I_L_D": [
+        {
+          "PKID": "F1101",
+          "CNAME": "表单构建器",
+          "SORTID": "13",
+          "FILEN": "tpl/formbuilder/form_builder.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        },
+        {
+          "PKID": "F1102",
+          "CNAME": "表单设计",
+          "SORTID": "13",
+          "FILEN": "tpl/formbuilder/viewlist.html",
+          "SRCIMG": "",
+          "OPENTYPE": "",
+          "SRCIMG32": ""
+        }
+      ]
+    }
+  ]
+}
